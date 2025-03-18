@@ -30,3 +30,31 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+Tasks
+  1. I feel as if the code is a little too vague. Using a, b, c, d has no real descriptive naming for the variables which could conflict on what the value has to do with the code, especially as the code get long and more complex, or if someone else had to work and edit the code, they will get confused
+      There is no curly braces at d indicating that variable is could be an obect.
+
+  2. let name = "Alice";
+     let numberItems = 5;
+     let price = 20;
+     let shopping = {name + "bought" + number + "items for $" + price + "."};
+  console.log(shopping);
+  output = Alice bought 5 items for $20.
+
+  3. let firstName = "Alice";
+     let lastName = "Wonderland";
+     let numberItems = 5;
+     let price = 20;
+     let shopping = {firstName +''+lastName + "bought" + number + "items for $" + price + "."};
+
+if (price<=20) {
+     console.log("Happy Face");
+   } else {
+     console.log("Sad Face");
+   }
+
+   console.log(shopping);
+
+   output = Alice Wonderland bought 5 items for $20. Happy Face.
+   
